@@ -1,17 +1,37 @@
-## Running React on Replit
+Exercise Tracking App
 
-[React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
+A React application for tracking exercise repetitions and durations.
 
-[Vite](https://vitejs.dev/) is a blazing fast frontend build tool that includes features like Hot Module Reloading (HMR), optimized builds, and TypeScript support out of the box.
+Features
 
-Using the two in conjunction is one of the fastest ways to build a web app.
+Track repetition-based exercises (Push-ups, Squats)
+Track duration-based exercises (Plank, Running)
+Interactive exercise menu
+Real-time counters and timers
+Reset functionality for both exercise types
+Technologies Used
 
-### Getting Started
-- Hit run
-- Edit [App.jsx](#src/App.jsx) and watch it live update!
+React
+Vite
+CSS3
+Getting Started
 
-By default, Replit runs the `dev` script, but you can configure it by changing the `run` field in the [configuration file](#.replit). Here are the vite docs for [serving production websites](https://vitejs.dev/guide/build.html)
+Clone the repository
+Install dependencies:
+npm install
+Start the development server:
+npm run dev
+Usage
 
-### Typescript
+Select an exercise from the menu to start tracking:
 
-Just rename any file from `.jsx` to `.tsx`. You can also try our [TypeScript Template](https://replit.com/@replit/React-TypeScript)
+For repetition exercises: Use the increment button to count reps
+For duration exercises: Use start/stop to track time
+Reset button available for both types
+Contributing
+
+Fork the repository
+Create your feature branch (git checkout -b feature/AmazingFeature)
+Commit your changes (git commit -m 'Add some AmazingFeature')
+Push to the branch (git push origin feature/AmazingFeature)
+Open a Pull Request
